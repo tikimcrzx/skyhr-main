@@ -1,4 +1,7 @@
 from .base import *
+import django_heoku
+
+django_heroku.settings(locals())
 
 DEBUG = True
 ALLOWED_HOSTS = [
