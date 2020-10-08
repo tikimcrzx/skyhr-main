@@ -1,0 +1,134 @@
+///////////////////////////////////////
+///////////////////////////////////////
+////////// Header & Sidebar ///////////
+///////////////////////////////////////
+///////////////////////////////////////
+.c-sidebar,
+.c-sidebar-nav-link,
+.c-sidebar-nav-title,
+.c-sidebar-nav-label {
+  background-color: #f1f4f8 !important;
+  color: #0D0D0D !important;
+}
+
+.c-sidebar-nav-link svg {
+  color: #0D0D0D !important;
+}
+
+.c-sidebar-brand {
+  background: #1d7ebf !important;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.block-title {
+  font-size: 1.5rem;
+}
+
+#mobile {
+  width: 100%;
+}
+
+.c-header-nav {
+  display: inline-flex;
+}
+
+///////////////////////////////////////
+///////////////////////////////////////
+/////////////// BUTTON ////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  padding: 0.375rem 0.75rem !important;
+  background: #20a8d8 !important;
+  border-color: #20a8d8 !important;
+}
+
+.btn-danger {
+  background: #e55353;
+}
+
+.btn-success, .btn-success:active {
+  background: #4dbd74;
+}
+
+.btn-light, .btn-light:active {
+  background: #cfd4d8 !important;
+}
+
+.btn-outline-light, .btn-outline-light:active {
+  background: transparent !important;
+  color: #20a8d8 !important;
+  border-color: #20a8d8 !important;
+  border-radius: 50em !important;
+}
+
+.btn-info, .btn-info:active {
+  background: #39f;
+}
+
+.btn-secondary, .btn-secondary:active {
+  background: #ced2d8;
+}
+
+.btn-group-primary, .btn-group-primary:focus {
+  background: white;
+  color: #2557a7;
+  border: 1px solid #2557a7;
+  border-radius: 8px;
+  padding: 9px 16px;
+}
+
+.btn-group-selected {
+  background: #2557a7;
+  color: white;
+  border-radius: 8px;
+  padding: 9px 16px;
+}
+
+
+///////////////////////////////////////
+///////////////////////////////////////
+//////////////// CARD /////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+.card-header-action {
+  color: #4f5d73 !important;
+  background: transparent !important;
+}
+.card {
+  //margin-top: 30px;
+}
+
+.card img {
+  border-radius: 0.25rem;
+}
+
+.card-sub-title {
+  padding: 30px 40px;
+  background-color: #2557a7;
+  color: white;
+}
+
+.card-sub-title h3, .card-sub-title h6 {
+  color: white;
+}
+
+.card-body {
+  padding: 30px 40px 30px 40px;
+}
+
+.invalid-title {
+  color: red;
+}
+
+///////////////////////////////////////
+///////////////////////////////////////
+//////////////// Phone ////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+.invalid-phone {
+  border: 1px solid red !important;
+}

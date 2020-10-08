@@ -1,0 +1,1055 @@
+[
+  {
+    "model": "users.companysector",
+    "pk": 1,
+    "fields": { "sector_name": "Information Technology" }
+  },
+  {
+    "model": "users.companysector",
+    "pk": 2,
+    "fields": { "sector_name": "Medicine" }
+  },
+  {
+    "model": "users.companysector",
+    "pk": 3,
+    "fields": { "sector_name": "Electronic" }
+  },
+  {
+    "model": "users.companysector",
+    "pk": 4,
+    "fields": { "sector_name": "Sales & Marketing" }
+  },
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$216000$SzCpbWQzygx1$wSPpbKujRLrMLaGLg3eC8qbXNsX7O/XjY0NeFbopPwM=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "mid_name": "",
+      "last_name": "",
+      "email": "hsunny3993@gmail.com",
+      "mobile": null,
+      "rfc": "RFC",
+      "curp": "",
+      "birth": null,
+      "linkedin_profile": "",
+      "facebook_profile": "",
+      "twitter_profile": "",
+      "photo": "",
+      "level": "",
+      "skills": null,
+      "country": "",
+      "address1": "",
+      "address2": "",
+      "state": "",
+      "zipcode": "",
+      "company_name": "BlackEcco",
+      "sector": "1",
+      "is_company": true,
+      "is_profile_completed": true,
+      "reset_password_token": "",
+      "created_at": "2020-09-26",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "skills.skill",
+    "pk": 1,
+    "fields": { "name": "Web & Mobile Development" }
+  },
+  { "model": "skills.skill", "pk": 2, "fields": { "name": "Data Science" } },
+  {
+    "model": "skills.subskill",
+    "pk": 1,
+    "fields": { "parent": 1, "name": "Desktop Software Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 2,
+    "fields": { "parent": 1, "name": "Ecommerce Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 3,
+    "fields": { "parent": 1, "name": "Game Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 4,
+    "fields": { "parent": 1, "name": "Mobile Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 5,
+    "fields": { "parent": 1, "name": "Other - Software Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 6,
+    "fields": { "parent": 1, "name": "Product Management" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 7,
+    "fields": { "parent": 1, "name": "QA & Testing" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 8,
+    "fields": { "parent": 1, "name": "Scripts & Utilities" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 9,
+    "fields": { "parent": 1, "name": "Web & Mobile Design" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 10,
+    "fields": { "parent": 1, "name": "Web Development" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 11,
+    "fields": { "parent": 2, "name": "Data Analysis" }
+  },
+  {
+    "model": "skills.subskill",
+    "pk": 12,
+    "fields": { "parent": 2, "name": "Data Mining" }
+  },
+  {
+    "model": "jobs.jobcategory",
+    "pk": 1,
+    "fields": { "category_name": "Software Development" }
+  },
+  {
+    "model": "jobs.jobcategory",
+    "pk": 2,
+    "fields": { "category_name": "Electronic Engineering" }
+  },
+  { "model": "jobs.jobkinds", "pk": 1, "fields": { "kind_name": "Full-time" } },
+  { "model": "jobs.jobkinds", "pk": 2, "fields": { "kind_name": "Part-time" } },
+  { "model": "jobs.jobkinds", "pk": 3, "fields": { "kind_name": "Temporary" } },
+  { "model": "jobs.jobkinds", "pk": 4, "fields": { "kind_name": "Contract" } },
+  {
+    "model": "jobs.jobkinds",
+    "pk": 5,
+    "fields": { "kind_name": "Internship" }
+  },
+  {
+    "model": "jobs.jobkinds",
+    "pk": 6,
+    "fields": { "kind_name": "Commission only" }
+  },
+  {
+    "model": "jobs.supplementalpay",
+    "pk": 1,
+    "fields": { "supplement_name": "Single bonus" }
+  },
+  {
+    "model": "jobs.supplementalpay",
+    "pk": 2,
+    "fields": { "supplement_name": "Commission pay" }
+  },
+  {
+    "model": "jobs.supplementalpay",
+    "pk": 3,
+    "fields": { "supplement_name": "Bonus pay" }
+  },
+  {
+    "model": "jobs.supplementalpay",
+    "pk": 4,
+    "fields": { "supplement_name": "Tips" }
+  },
+  {
+    "model": "jobs.supplementalpay",
+    "pk": 5,
+    "fields": { "supplement_name": "Other" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 1,
+    "fields": { "benefit_name": "Health insurance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 2,
+    "fields": { "benefit_name": "Paid time off" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 3,
+    "fields": { "benefit_name": "Dental insurance" }
+  },
+  { "model": "jobs.benefits", "pk": 4, "fields": { "benefit_name": "401(k)" } },
+  {
+    "model": "jobs.benefits",
+    "pk": 5,
+    "fields": { "benefit_name": "Vision insurance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 6,
+    "fields": { "benefit_name": "Flexible schedule" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 7,
+    "fields": { "benefit_name": "Tuition reimbursement" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 8,
+    "fields": { "benefit_name": "Life insurance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 9,
+    "fields": { "benefit_name": "401(k) matching" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 10,
+    "fields": { "benefit_name": "Disability insurance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 11,
+    "fields": { "benefit_name": "Retirement plan" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 12,
+    "fields": { "benefit_name": "Referral program" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 13,
+    "fields": { "benefit_name": "Employee discount" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 14,
+    "fields": { "benefit_name": "Flexible spending account" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 15,
+    "fields": { "benefit_name": "Relocation assistance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 16,
+    "fields": { "benefit_name": "Parental leave" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 17,
+    "fields": { "benefit_name": "Professional development assistance" }
+  },
+  {
+    "model": "jobs.benefits",
+    "pk": 18,
+    "fields": { "benefit_name": "Employee assistance program" }
+  },
+  { "model": "jobs.benefits", "pk": 19, "fields": { "benefit_name": "Other" } },
+  { "model": "jobs.benefits", "pk": 20, "fields": { "benefit_name": "None" } },
+  {
+    "model": "jobs.availabilities",
+    "pk": 1,
+    "fields": { "availability_name": "8 hour shift" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 2,
+    "fields": { "availability_name": "10 hour shift" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 3,
+    "fields": { "availability_name": "12 hour shift" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 4,
+    "fields": { "availability_name": "Weekends" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 5,
+    "fields": { "availability_name": "Monday to Friday" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 6,
+    "fields": { "availability_name": "On call" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 7,
+    "fields": { "availability_name": "Holidays" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 8,
+    "fields": { "availability_name": "Night shift" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 9,
+    "fields": { "availability_name": "Overtime" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 10,
+    "fields": { "availability_name": "Day shift" }
+  },
+  {
+    "model": "jobs.availabilities",
+    "pk": 11,
+    "fields": { "availability_name": "Other" }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 1,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 1,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 1,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 1,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add company sector",
+      "content_type": 2,
+      "codename": "add_companysector"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change company sector",
+      "content_type": 2,
+      "codename": "change_companysector"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete company sector",
+      "content_type": 2,
+      "codename": "delete_companysector"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view company sector",
+      "content_type": 2,
+      "codename": "view_companysector"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add employment",
+      "content_type": 3,
+      "codename": "add_employment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change employment",
+      "content_type": 3,
+      "codename": "change_employment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete employment",
+      "content_type": 3,
+      "codename": "delete_employment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view employment",
+      "content_type": 3,
+      "codename": "view_employment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add education",
+      "content_type": 4,
+      "codename": "add_education"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change education",
+      "content_type": 4,
+      "codename": "change_education"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete education",
+      "content_type": 4,
+      "codename": "delete_education"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view education",
+      "content_type": 4,
+      "codename": "view_education"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add introduction video",
+      "content_type": 5,
+      "codename": "add_introductionvideo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change introduction video",
+      "content_type": 5,
+      "codename": "change_introductionvideo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete introduction video",
+      "content_type": 5,
+      "codename": "delete_introductionvideo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view introduction video",
+      "content_type": 5,
+      "codename": "view_introductionvideo"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add skill",
+      "content_type": 6,
+      "codename": "add_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change skill",
+      "content_type": 6,
+      "codename": "change_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete skill",
+      "content_type": 6,
+      "codename": "delete_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view skill",
+      "content_type": 6,
+      "codename": "view_skill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add sub skill",
+      "content_type": 7,
+      "codename": "add_subskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change sub skill",
+      "content_type": 7,
+      "codename": "change_subskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete sub skill",
+      "content_type": 7,
+      "codename": "delete_subskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view sub skill",
+      "content_type": 7,
+      "codename": "view_subskill"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add availabilities",
+      "content_type": 8,
+      "codename": "add_availabilities"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change availabilities",
+      "content_type": 8,
+      "codename": "change_availabilities"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete availabilities",
+      "content_type": 8,
+      "codename": "delete_availabilities"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view availabilities",
+      "content_type": 8,
+      "codename": "view_availabilities"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add benefits",
+      "content_type": 9,
+      "codename": "add_benefits"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change benefits",
+      "content_type": 9,
+      "codename": "change_benefits"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete benefits",
+      "content_type": 9,
+      "codename": "delete_benefits"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view benefits",
+      "content_type": 9,
+      "codename": "view_benefits"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add job category",
+      "content_type": 10,
+      "codename": "add_jobcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change job category",
+      "content_type": 10,
+      "codename": "change_jobcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete job category",
+      "content_type": 10,
+      "codename": "delete_jobcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view job category",
+      "content_type": 10,
+      "codename": "view_jobcategory"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add job kinds",
+      "content_type": 11,
+      "codename": "add_jobkinds"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change job kinds",
+      "content_type": 11,
+      "codename": "change_jobkinds"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete job kinds",
+      "content_type": 11,
+      "codename": "delete_jobkinds"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view job kinds",
+      "content_type": 11,
+      "codename": "view_jobkinds"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add supplemental pay",
+      "content_type": 12,
+      "codename": "add_supplementalpay"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change supplemental pay",
+      "content_type": 12,
+      "codename": "change_supplementalpay"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete supplemental pay",
+      "content_type": 12,
+      "codename": "delete_supplementalpay"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view supplemental pay",
+      "content_type": 12,
+      "codename": "view_supplementalpay"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add jobs",
+      "content_type": 13,
+      "codename": "add_jobs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change jobs",
+      "content_type": 13,
+      "codename": "change_jobs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete jobs",
+      "content_type": 13,
+      "codename": "delete_jobs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view jobs",
+      "content_type": 13,
+      "codename": "view_jobs"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 14,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 14,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 14,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 14,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 15,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 15,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 15,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 15,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 16,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 16,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 16,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 16,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 17,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 17,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 17,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 17,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 18,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 18,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 18,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 18,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "users", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "users", "model": "companysector" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "users", "model": "employment" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "users", "model": "education" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "users", "model": "introductionvideo" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "skills", "model": "skill" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "skills", "model": "subskill" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "jobs", "model": "availabilities" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "jobs", "model": "benefits" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "jobs", "model": "jobcategory" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "jobs", "model": "jobkinds" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": { "app_label": "jobs", "model": "supplementalpay" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": { "app_label": "jobs", "model": "jobs" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": { "app_label": "sessions", "model": "session" }
+  }
+]
