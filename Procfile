@@ -1,1 +1,1 @@
-web: gunicorn skyhr-main.wsgi --log-file -
+web: gunicorn skyhr_backend.wsgi --log-file -
