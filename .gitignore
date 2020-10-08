@@ -5,3 +5,4 @@ manage.py
 .env
 skyhr_frontend/node_modules
 skyhr_frontend/build
+/skyhr_frontend
